@@ -14,3 +14,4 @@ Need to define tools
 metrics
 1. Create the agent
 2. fintune
+3. Deploy
