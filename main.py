@@ -7,6 +7,7 @@ def main():
     df = pd.read_csv("dataset/Multi_Cuisine_Recipe_Dataset.csv")
     df.head()
     print(df.columns)
+    print(df.describe())
 
 if __name__ == "__main__":
     main()
