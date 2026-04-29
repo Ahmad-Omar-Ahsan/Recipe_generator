@@ -8,6 +8,7 @@ def main():
     df.head()
     print(df.columns)
     print(df.describe())
+    print(df.isnull().sum())
 
 if __name__ == "__main__":
     main()
