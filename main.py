@@ -9,6 +9,10 @@ def main():
     print(df.columns)
     print(df.describe())
     print(df.isnull().sum())
+    print("Loading pre-trained model...")
+    model = transformers.AutoModelForCausalLM.from_pretrained("model")
+    tokenizer = transformers.AutoTokenizer.from_pretrained("model")
+    print("Model loaded successfully!")
 
 if __name__ == "__main__":
     main()
