@@ -13,6 +13,12 @@ def main():
     model = transformers.AutoModelForCausalLM.from_pretrained("model")
     tokenizer = transformers.AutoTokenizer.from_pretrained("model")
     print("Model loaded successfully!")
+    x = "Generate a recipe for a vegan pasta dish with tomatoes and basil."
+    inputs = tokenizer(x, return_tensors="pt")
+    outputs = model.generate(**inputs, max_length=200)
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    print("Generated Recipe:")
+    print(generated_text)
 
 if __name__ == "__main__":
     main()
