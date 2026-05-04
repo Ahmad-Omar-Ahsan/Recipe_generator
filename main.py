@@ -19,7 +19,8 @@ def main():
     generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
     print("Generated Recipe:")
     print(generated_text)
-    x = df['recipe']
+    x_ing = df['ingredients']
+    x_step = df['step']
 
 if __name__ == "__main__":
     main()
