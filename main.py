@@ -22,6 +22,7 @@ def main():
     x_ing = df['ingredients']
     x_step = df['step']
     y = 1
+    loss = '12'
 
 if __name__ == "__main__":
     main()
