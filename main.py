@@ -23,6 +23,7 @@ def main():
     x_step = df['step']
     y = 1
     loss = '12'
+    log = 1
 
 if __name__ == "__main__":
     main()
