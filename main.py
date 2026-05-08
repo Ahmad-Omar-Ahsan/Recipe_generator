@@ -24,6 +24,7 @@ def main():
     y = 1
     loss = '12'
     log = 1
+    evalute = 'recipe soundness'
 
 if __name__ == "__main__":
     main()
