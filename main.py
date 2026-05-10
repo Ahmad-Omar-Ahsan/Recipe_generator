@@ -25,7 +25,7 @@ def main():
     loss = '12'
     log = 1
     evalute = 'recipe soundness'
-    tools
+    tools = 'hf'
 
 if __name__ == "__main__":
     main()
