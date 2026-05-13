@@ -26,6 +26,7 @@ def main():
     log = 1
     evalute = 'recipe soundness'
     tools = 'hf'
+    final_prod = 'r'
 
 if __name__ == "__main__":
     main()
