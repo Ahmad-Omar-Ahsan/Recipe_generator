@@ -27,6 +27,7 @@ def main():
     evalute = 'recipe soundness'
     tools = 'hf'
     final_prod = 'r'
+    need = 'ui'
 
 if __name__ == "__main__":
     main()
