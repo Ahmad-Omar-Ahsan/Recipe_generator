@@ -28,6 +28,7 @@ def main():
     tools = 'hf'
     final_prod = 'r'
     need = 'ui'
+    execute = 'pan'
 
 if __name__ == "__main__":
     main()
