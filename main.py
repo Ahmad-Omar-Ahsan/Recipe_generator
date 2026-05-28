@@ -22,12 +22,7 @@ def main():
     x_ing = df['ingredients']
     x_step = df['step']
     y = 1
-    loss = '12'
-    log = 1
-    evalute = 'recipe soundness'
-    tools = 'hf'
-    final_prod = 'r'
-    need = 'ui'
+   
     execute = 'pan'
 
 if __name__ == "__main__":
