@@ -21,7 +21,6 @@ def main():
     print(generated_text)
     x_ing = df['ingredients']
     x_step = df['step']
-    y = 1
    
     execute = 'pan'
 
