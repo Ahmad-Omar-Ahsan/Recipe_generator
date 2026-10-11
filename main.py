@@ -21,7 +21,7 @@ def main():
     print(generated_text)
     x_ing = df['ingredients']
     x_step = df['step']
-   
+    print("Done...")
 
 if __name__ == "__main__":
     main()
